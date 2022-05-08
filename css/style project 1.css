@@ -1,0 +1,310 @@
+@media(min-width:280px)and(max-width:1300){
+  header .imagelogo{
+        width: 7px;
+        height:5px ;
+        right: -8px;
+  }
+  header .logo{
+      right: 30rem;
+  }
+  div{
+      width:100%;
+  }
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-decoration: none;
+ text-transform: capitalize;
+ transition: .2s linear;
+
+}
+
+header{
+height: 5.5rem;
+position: fixed;
+top:0;left: 0;right: 0;
+background:#fff;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 0 .5rem 1rem  rgb(0,0,0,1);
+
+}
+.imagelogo{
+margin: 0;
+padding: 0;
+width: 70px;
+height:50px;
+border-radius: 50%;
+position: relative;
+right: -10px;
+
+}
+
+header .logo{
+position: relative;
+right:20rem;
+color:darkgreen;
+
+}
+
+.navbar span {
+
+color:black;
+
+}
+
+.navbar a{
+
+font-size:20px;
+padding-left: 20px;
+
+}
+
+.navbar{
+display: flex;
+}
+
+
+.navbar a:hover{
+background-color:cyan;
+}
+
+
+header i{
+color:black;
+}
+.dark header{
+ background-color:white;
+ border-bottom: 1px solid rgb(223, 57, 46);
+}
+.dark{
+background-color: black;
+color: #fff;
+}
+.dark h1{
+ color:aliceblue ;
+}
+.dark .slider h5{
+ color:black;
+ background-color: aliceblue;
+}
+.dark .star pre{
+ color: aliceblue;
+}
+.dark .contant pre{
+ color: aliceblue;
+}
+.dark .foo{
+ background: aliceblue;
+ color: black;
+}
+.dark .foo a{
+ color: black;
+}
+
+.dark mark{
+ background-color: aliceblue;
+}
+.dark .sc img{
+ box-shadow:10px 10px rgb(255, 255, 255) ;
+}
+.dark #color img{
+ box-shadow:10px 10px rgba(231, 188, 188, 0.959) ;
+}
+
+
+
+.foo{
+  
+   width: 100%;
+  
+  position: static;
+ color: white;
+ top:0;left: 0;right: 0;
+ background:black;
+ padding: 2rem 9%;
+ margin-top: 2rem;
+ align-items: center;
+ justify-content: space-between;
+ z-index: 1000;
+ box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+ 
+}
+
+
+.foo a{
+   display: block;
+   color: white;
+   line-height: 2.5;
+   font-size: 20px;
+
+}
+.foo a:hover{
+   color: yellow;
+}
+.foo th{
+   font-size: 30px;
+}
+
+
+
+#cont{
+ color: #666;
+}
+
+
+#cont:before{
+ content: ' \00A9';
+ 
+
+}
+.icon a{
+  margin: 10px;
+  display: inline;
+ 
+}
+
+
+.slider
+{
+width: 760px;
+margin: auto;
+overflow: hidden;
+}
+.slider ul{
+ padding: 0%;
+list-style: none;
+width: 4570px;
+position: relative;
+animation:sliding 10s ease-in-out infinite; 
+
+}
+.slider ul li{
+ float: left;
+position: relative;
+}
+.slider h5{
+ color: aliceblue;
+ background: black;
+ padding: 15px;
+ text-align: center;
+ position: absolute;
+ bottom: 0%;
+ width: 100%;
+ margin: 0%;
+ font-size: 40px;
+}
+@keyframes sliding{
+ 0%{left:0}
+ 20%{left:-760px;}
+ 40%{left:-1520px;}
+ 60%{left:-2280px;}
+ 80%{left:-3040px;}
+ 90%{left: -3800px;}
+}
+
+
+
+#color{
+ text-indent:10px;
+ font-size: 20px;
+}
+
+#color span{
+ color: #ffa909;
+ text-decoration: underline;
+ text-transform: capitalize;
+}
+
+#color img{
+ box-shadow:9px 10px black;
+ margin: 0;
+ z-index: 100;
+ border-radius: 30px;
+}
+.sc {
+
+ font-size: 20px;
+}
+.img{
+ width: 175px;
+ height: 175px;
+
+}
+.text1{
+  font-size: larger;
+  color:#3aff09fb;
+}
+.text2{
+ font-size: 20px;
+ text-indent: 5px;
+ margin: 0px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+#tap table {
+ border:2px solid black;
+ border-collapse: collapse;
+ 
+ margin-left: 75px;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ 
+}
+#tap th,td{
+ border: 2px solid black;
+ padding: 5px;
+ text-align: center;
+ 
+}
+.sc span{
+ color: #ffa909;
+ text-decoration: underline;
+ text-transform: capitalize;
+
+}
+
+.sc img{
+ z-index: 100px;
+ box-shadow:10px 10px rgb(0, 0, 0) ;
+ border-radius: 30px;
+
+}
+
+
+.sc span{
+ color: hsl(61, 96%, 51%);
+ text-decoration: underline;
+ text-transform: capitalize;
+}
+
+.sc ol li span{
+ color: hsl(61, 96%, 51%);
+ text-decoration: underline;
+ text-transform: capitalize;
+}
+.sc ol li img{
+border: 5px solid black;
+}
+.sc img{
+ z-index: 100px;
+ box-shadow:10px 10px rgb(0, 0, 0) ;
+ border-radius: 30px;
+ 
+}
+.bord{
+ background-color: rgb(75, 142, 219);
+ border-radius: 60px;
+}
+.bord h1,h2{
+ margin-left: 30px;
+}
+.bord h3{
+ margin-top: 20px;
+}

@@ -1,0 +1,682 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+ scroll-behavior: smooth;
+
+}
+
+body{
+  background-color: black;
+}
+
+/*header*/
+header{
+height: 5.5rem;
+  position: fixed;
+  top:0;left: 0;right: 0;
+  background:#fff;
+ padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem  rgb(0,0,0,1);
+  
+}
+
+.imagelogo{
+margin: 0;
+padding: 0;
+width: 5rem;
+height:5rem;
+border-radius: 50%;
+position: relative;
+right: 90px;
+
+}
+
+header .logo{
+position: relative;
+right: 11rem;
+color:darkgreen;
+
+}
+
+.navbar span {
+
+  color:black;
+
+}
+
+.navbar a{
+
+  font-size: 1.5rem;
+  padding:0 1.5rem;
+ /* left:15px ;*/
+ padding-left: 10px;
+}
+
+.navbar{
+  display: flex;
+}
+
+
+.navbar a:hover{
+  background-color:cyan;
+}
+
+
+header i{
+color:black;
+}
+
+
+input[type=search] {
+  width: 15rem;
+   padding: 8px 10px;
+   margin: 8px 0;
+   border-radius: 10px;
+}
+.search{
+align-items: center;
+position: relative;
+display: flex;
+margin-bottom: 35rem;
+margin-left: -150px;
+/*margin-left: 20rem;*/
+
+}
+.btn{
+ width: 50px;
+ height: 30px;
+border-radius: 50%;
+border-radius: 10px;
+ background-color: goldenrod;
+ transition: 0.6s ease;
+ 
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+
+
+
+section{
+  padding: 2rem 9%;
+
+ 
+}
+
+
+.home{
+  
+  display: flex;
+  align-items: center ;
+  background:url(../images/image\ 9.jfif );
+  background-repeat:no-repeat ;
+  background-size:cover ;
+  background-position:center;
+  margin-top: 100px;
+  height: 40rem;
+  background-attachment: fixed;
+  /*margin-bottom:50px ;*/
+
+}
+
+
+
+.topics h1{
+font-size: 40px;
+  color:orange;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+
+
+.gal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: flex-start;
+}
+
+.gall{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+}
+
+div.galleryy {
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 30rem;
+transition: 0.4s ease;
+margin-bottom: 30px;
+
+ 
+}
+
+div.galleryy:hover {
+  border: 1px solid #777;
+
+  transform: scale(1.1);
+
+  
+}
+
+div.galleryy img {
+  width: 100%;
+  height: 30rem;
+ 
+}
+
+div.galleryy img:hover{
+
+  opacity: 0.7;
+}
+
+
+
+
+div.desce {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  flex-direction: column;
+  
+}
+
+
+div.gallery {
+    
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 20rem;
+transition: 0.4s ease;
+margin-bottom: 20px;
+ 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+
+  transform: scale(1.1);
+}
+
+div.gallery img {
+  width: 100%;
+  height: 20rem;
+ 
+}
+
+div.gallery img:hover{
+
+  opacity: 0.7;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+}
+
+.abou{
+ 
+  box-shadow: 0 .2rem 1rem  rgb(250,250,250);
+
+}
+
+.abou div{
+  padding-top: 80px;
+}
+
+.abou h1{
+
+  color:orange;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  font-size: 50px;
+
+
+}
+
+.abou p{
+color: white;
+text-align: center;
+font-size: 30px;
+
+
+
+}
+
+.abou pre{
+color: white;
+text-align: justify;
+padding-left: 20rem;
+
+}
+
+.video{
+  background-color:#777;
+
+}
+
+.video video{
+
+  margin-left: 14rem;
+  width: 70%;
+}
+
+
+.foo{
+     
+  width: 100%;
+ 
+  position: static;
+color: white;
+top:0;left: 0;right: 0;
+background-color: black;
+padding: 2rem 9%;
+margin-top: 2rem;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+
+}
+
+.foo h1{
+  color:red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+
+
+}
+
+#cont{
+  color: #666;
+}
+
+
+#cont:before{
+  content: ' \00A9';
+  
+}
+
+
+
+.icon a{
+  margin-top: 10px;
+  display: inline;
+  color: white;
+  margin-left: 12px;
+  font-size: 20px;
+
+}
+.icon a:hover{
+  color: yellow;
+}
+
+
+.contact{
+  background-color: white;
+ 
+}
+.titel{
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+
+  background-color: #fff;
+  width: 21.24em;
+  box-shadow: 0 5px 25px rgba(1 1 1/15%);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+
+.contact .icon{
+  color: #3a6cf4;
+text-align: center;
+  font-size: 4.5em;
+}
+
+.contact .info{
+  text-align: center;
+}
+
+.contact .info h3{
+  color: #000;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+}
+
+.contact .info p{
+  font-size: 1.5em;
+}
+
+
+@media (max-width:699px) {
+
+  header{
+    padding: 10px 20px;
+    height: 3.5rem;
+ 
+  }
+ 
+  
+  header .logo{
+    font-size: 10px;
+    right: 0;
+    left: 5px;
+  /* padding-left: 0px;*/
+  
+    }
+
+    .imagelogo{
+      left: 10px;
+      width: 60px;
+      height: 40px;
+    }
+
+    .navbar a{
+      font-size:9px;
+      /*left: 5px;*/
+      padding-left: 5px;
+    
+    }
+
+    #iconperson{
+      font-size: 10px;
+    }
+
+    input[type=search] {
+    
+      padding: 3px 6px;
+      width: 10rem;
+    }
+
+    .btn{
+      width: 30px;
+      height: 20px;
+
+     }
+
+     .search{
+      margin-bottom: 30rem;
+      margin-left: 5px;
+
+     }
+
+
+    .home{
+      margin-top: 10px;
+    }
+    
+     div.galleryy{
+       width: 9rem;
+     }
+     div.galleryy img{
+       height: 10rem;
+     }
+
+     div.desce{
+       font-size: 15px;
+
+     }
+
+     div.gallery{
+      width: 9rem;
+    }
+    div.gallery img{
+      height: 10rem;
+    }
+
+    div.desc{
+      font-size: 10px;
+
+    }
+
+     .gall{
+      grid-template-columns: 1fr 1fr;
+     }
+
+     .abou p{
+       font-size: 15px;
+     }
+
+     .abou pre{
+       font-size: 9px;
+       padding-left: 10px;
+     }
+     .video video{
+     margin-left: 50px;
+     }
+}
+
+   /*ipad*/
+
+@media (min-width:700px) {
+
+  header{
+    padding: 10px 20px;
+    height: 4rem;
+ 
+  }
+ 
+  
+  header .logo{
+    font-size: 20px;
+    right: 0;
+    left: -110px;
+  /* padding-left: 0px;*/
+  
+    }
+
+    .imagelogo{
+      left: 10px;
+      width: 60px;
+      height: 40px;
+    }
+
+    .navbar a{
+      font-size:18px;
+      /*left: 5px;*/
+      padding-left: 5px;
+    
+    }
+
+    #iconperson{
+      font-size: 18px;
+    }
+
+    input[type=search] {
+    
+      padding: 5px 8px;
+      width: 15rem;
+    }
+
+    .btn{
+      width: 35px;
+      height: 30px;
+
+     }
+
+     .search{
+      margin-bottom: 26rem;
+      margin-left: -50px;
+
+     }
+
+
+     .home{
+       margin-top: 10px;
+     }
+    
+     div.galleryy{
+       width: 20rem;
+     }
+     div.galleryy img{
+       height: 20rem;
+     }
+
+     div.desce{
+       font-size: 20px;
+
+     }
+
+     div.gallery{
+      width: 15rem;
+    }
+    div.gallery img{
+      height: 15rem;
+    }
+
+    div.desc{
+      font-size: 15px;
+
+    }
+
+     .gall{
+      grid-template-columns: 1fr 1fr;
+     }
+
+     .abou p{
+       font-size: 15px;
+    
+     }
+     .abou pre{
+       font-size: 15px;
+       padding-left: 70px;
+     }
+     .video video{
+     margin-left: 50px;
+     }
+}
+
+  /* laptop*/
+
+@media (min-width:1024px){
+  header{
+    padding: 10px 20px;
+    height: 4rem;
+ 
+  }
+ 
+  
+  header .logo{
+    font-size: 25px;
+    right: 0;
+    left: -27rem;
+  
+    }
+
+    .imagelogo{
+      left: 10px;
+      width: 70px;
+      height: 50px;
+    }
+
+    .navbar a{
+      font-size:20px;
+      padding-left: 15px;
+    
+    }
+
+    #iconperson{
+      font-size: 20px;
+    }
+
+    input[type=search] {
+    
+      padding: 7px 10px;
+      width: 15rem;
+    }
+
+    .btn{
+      width: 35px;
+      height: 30px;
+
+     }
+
+     .search{
+      margin-bottom: 26rem;
+      margin-left: -100px;
+
+     }
+
+
+     .home{
+       margin-top: 20px;
+       height: 50rem;
+     }
+    
+     div.galleryy{
+       width: 30rem;
+     }
+     div.galleryy img{
+       height: 30rem;
+     }
+
+     div.desce{
+       font-size: 25px;
+
+     }
+
+     div.gallery{
+      width: 20rem;
+    }
+    div.gallery img{
+      height:20rem;
+    }
+
+    div.desc{
+      font-size: 15px;
+    }
+
+     .gall{
+      grid-template-columns: 1fr 1fr 1fr;
+     }
+
+     .abou p{
+       font-size: 30px;
+     }
+
+     .abou pre{
+       font-size: 16px;
+       padding-left: 20rem;
+     }
+     .video video{
+     margin-left: 14rem;
+     width: 70%;
+     }
+}
+
+

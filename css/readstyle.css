@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Hind Madurai, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+header {
+  padding: 10px 20px;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2);
+}
+
+.imagelogo {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  right: -10px;
+}
+
+header .logo {
+  position: relative;
+  right: 27rem;
+  color: darkgreen;
+  margin-left: 10%;
+  font-size: 30px;
+}
+
+.navbar span {
+  color: black;
+}
+
+.navbar a {
+  font-size: 20px;
+  padding-left: 15px;
+  padding: 0 1.5rem;
+}
+
+#iconperson {
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a:hover {
+  background-color: cyan;
+}
+
+.icons a:hover {
+  color: yellowgreen;
+}
+header i {
+  color: black;
+}
+
+section {
+  padding: 2rem;
+  background-color: rgb(248, 248, 248);
+}
+.first h1 {
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 6rem;
+  font-size: 5rem;
+}
+
+.first img {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.col {
+  display: flex;
+}
+
+.second h1 {
+  font-size: 1.2rem;
+  color: rgb(90, 89, 89);
+}
+p {
+  color: rgb(92, 91, 91);
+  font-size: 1.1rem;
+  margin-top: 5%;
+}
+.second .row-2 {
+  margin-left: 7%;
+}
+.second .share {
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  border-radius: 50px;
+  padding: 4% 8%;
+}
+.share a {
+  padding: 2.5% 4%;
+  color: white;
+}
+.share h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+.second table {
+  margin-top: 18%;
+  font-size: 1.3rem;
+}
+.second td {
+  color: rgb(92, 91, 91);
+}
+.second .td-1 {
+  color: rgba(34, 34, 34, 0.842);
+  font-weight: bold;
+}
+
+.third img {
+  width: 90%;
+}
+
+.fourth h1 {
+  color: rgb(51, 51, 51);
+  font-size: 3rem;
+}
+.fourth h3 {
+  color: rgb(77, 76, 76);
+  margin-top: 4%;
+}
+.fourth p {
+  max-width: 80%;
+}
+.flex {
+  display: flex;
+}
+
+.fourth img {
+  width: 700px;
+  height: 800px;
+}
+
+@media only screen and (max-width: 900px) {
+  .first h1 {
+    font-size: 3rem;
+  }
+
+  .col {
+    display: grid;
+  }
+
+  .share {
+    margin-top: 7%;
+    padding: 3% 3%;
+  }
+
+  .share a {
+    padding: 1.2% 4%;
+  }
+}
