@@ -1,0 +1,382 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+header{
+  position: fixed;
+  top:0;left: 0;right: 0;
+  background: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+  }
+header .logo{
+
+  color:aqua;
+}
+
+.navbar span{
+
+  color: brown;
+
+}
+
+
+.navbar a{
+
+  font-size: 1.5rem;
+  padding:0 1.5rem;
+  left:15px ;
+ }
+.navbar a:hover{
+  background-color:blanchedalmond;
+}
+
+.icons a:hover{
+
+ color:yellowgreen;
+
+}
+
+section{
+  padding: 2rem 9%;
+}
+ */
+ header{
+  padding: 10px 20px;
+  height: 3rem;
+  position: fixed;
+  top:0;left: 0;right: 0;
+  background:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgb(0,0,0,1);
+  
+  }
+
+.imglogo{
+margin: 0;
+padding: 0;
+width: 70px;
+height:50px;
+border-radius: 50%;
+position: relative;
+ right: -10px; 
+
+
+}
+
+header .logo{
+position: relative;
+right: 25rem;
+  color:darkgreen;
+  padding-left: 5px;
+  font-size: 25px;
+  
+
+}
+
+
+
+.navbar span {
+
+  color:black;
+
+}
+
+.navbar a{
+
+  font-size:20px;
+  padding-left: 15px;
+  padding:0 1.5rem;
+
+}
+
+#iconperson{
+  font-size: 20px;
+}
+
+.navbar{
+display: flex;
+}
+
+
+.dark {
+  background-color: black;
+  color: white;
+}
+.dark p{
+  color: white;
+}
+
+.dark footer{
+  background-color:gray;
+}
+
+.dark .foo a{
+  color:white;
+}
+
+.dark .foo th{
+  color: black;
+}
+.dark #cont{
+  color: white;
+}
+
+.navbar a:hover{
+  background-color:cyan;
+}
+
+.icons a:hover{
+
+ color:yellowgreen;
+
+}
+header i{
+color:black;
+} 
+
+
+.foo{
+   
+  width: 100%;
+ 
+  position: static;
+color: white;
+top:0;left: 0;right: 0;
+background:black;
+padding: 2rem 9%;
+margin-top: 2rem;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+
+}
+
+
+.foo a{
+  display: block;
+  color:white;
+  line-height: 2.5;
+  font-size: 20px;
+
+}
+.foo a:hover{
+  color: yellow;
+}
+.foo th{
+  font-size: 30px;
+}
+
+
+
+#cont{
+color: #666;
+}
+
+
+#cont:before{
+content: ' \00A9';
+
+
+}
+.icon a{
+ margin: 10px;
+ display: inline;
+
+}
+
+table {
+font-family: arial, sans-serif;
+
+width: 50%;
+}
+th ,td{
+text-align: left;
+padding: 5px;
+}
+p{
+  color: rgb(14, 5, 5);
+  font-size:16px ;
+  
+  
+ text-align: justify;
+ margin: 0 130px;
+
+} 
+p.g{
+  color: black;
+  font-size: 25px;
+margin: 0 100px;
+}
+
+  
+ 
+.cards-list{
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card{
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  transition: 0.4s;
+  cursor:pointer;
+  box-shadow: 20px 20px 8px rgb(116, 101, 101)
+  
+}
+img.a{
+  height: 150px;
+  width: 150px
+}
+img.b{
+  height: 150px;
+  width: 150px
+}
+img.c{
+  height: 150px;
+  width: 150px
+}
+img.d{
+  height: 150px;
+  width: 150px
+}
+.card_img{
+  width: inherit;
+  height: inherit;
+ 
+}
+.card_image img{
+  width: inherit;
+  border-radius: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+ 
+ 
+ .card:hover{
+   transform: scale(0.9,0.9);
+   box-shadow: -50px -50px 8px rgb(202, 194, 194) ,50px 50px 8px rgb(193, 188, 188) 
+ }
+
+  th.m{ 
+      color: rgb(98, 114, 197);
+      background-color: rgb(227, 225, 216);
+      font-size: 25px;
+     
+  }
+table.m{
+margin-left: 400px;
+}    
+img.f{
+  
+  border-radius: 50px;
+  height: 200px;
+  width: 200px;
+  margin: 0 50vw 0 200px;
+  box-shadow: 5px 5px rgb(193, 188, 188), -5px -5px rgb(193, 188, 188);
+
+}
+a{
+  text-decoration: none;
+
+}
+a:hover{
+  color: rgb(230, 28, 28);
+}
+a:visited{
+  color: rgb(122, 60, 125);
+}
+div{
+  color: rgb(242, 234, 234);
+
+}
+.A{
+  border: 2px solid rgb(45, 33, 33);
+  height: 50vh;
+  width: 70vw;
+  background-image:none ;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://vtfishandwildlife.com/sites/fishandwildlife/files/images/Learn%20More/VT%20Critters/VTFW-Blue-Spotted-Salamander.jpg);
+
+}
+img.m{
+  height: 200px;
+  width:400px;
+  border-radius: 0;
+ 
+ 
+}
+
+
+.B{
+  background-color: rgb(33, 120, 59);
+  margin: 5px;
+  padding: 0px 40px 20px 40px ;
+  font-size: 2em;
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  border-bottom: 5px solid rgb(130, 226, 100);}
+img.v{width: 200px;
+height:200px;
+
+border-radius: 50px;
+
+margin-right: 0px;
+margin-top: 20px;
+}
+
+p.v{
+height: 500px;
+width: 200px;
+}
+ul{
+margin-left: 130px;
+}
+video{
+  margin-left:400px;
+  height: 200px;
+  width:400px;
+}
+hr{
+  margin-left: 80px;
+  margin-right: 50px;
+}
+.btn{
+  color: rgb(231, 231, 237);
+}
+.btn1{
+  width: 120px;
+  height: 40px;
+  left:100px;
+  margin:100px;
+  margin-left:500px;
+  border-radius: 12px;
+  box-shadow: 5px 5px rgb(193, 188, 188),-5px -5px rgb(193, 188, 188);
+  background-color: rgb(232, 217, 217);
+  border: rgb(215, 215, 220);
+}
+.btn1:hover{
+  transform: scale(0.9,0.9);
+  
+}
+
+
+
