@@ -7,88 +7,80 @@
   text-decoration: none;
   transition: 0.2s linear;
 }
-header{
+header {
   padding: 10px 20px;
   height: 4rem;
   position: fixed;
-  top:0;left: 0;right: 0;
-  background:transparent;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
-  box-shadow: 0 .5rem 1rem rgb(0,0,0,0.2);
-  
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2);
 }
 
-.imagelogo{
-margin: 0;
-padding: 0;
-width: 70px;
-height: 60px;
-border-radius: 50%;
-position: relative;
-right: -10px;
-
+.imagelogo {
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  right: -10px;
 }
 
-header .logo{
+header .logo {
   position: relative;
   right: 27rem;
   color: darkgreen;
   margin-left: 18%;
   font-size: 30px;
-
 }
 
-
+header .fa {
+  display: none;
+}
 
 .navbar span {
-
-  color:black;
-
+  color: black;
 }
 
-.navbar a{
-
-  font-size:20px;
+.navbar a {
+  font-size: 20px;
   padding-left: 15px;
-  padding:0 1.5rem;
- 
+  padding: 0 1.5rem;
 }
 
-#iconperson{
+#iconperson {
   font-size: 20px;
 }
 
-.navbar{
-display: flex;
+.navbar {
+  display: flex;
 }
 
-
-.navbar a:hover{
-  background-color:cyan;
+.navbar a:hover {
+  background-color: cyan;
 }
 
-.icons a:hover{
-
- color:yellowgreen;
-
+.icons a:hover {
+  color: yellowgreen;
 }
-header i{
-color:black;
+header i {
+  color: black;
 }
-
-
 
 .backvideo {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 section {
-  padding:2rem;
+  padding: 2rem;
   background-color: rgb(248, 248, 248);
 }
 
@@ -102,7 +94,6 @@ section {
   position: absolute;
   top: 16rem;
   text-align: center;
-  
 }
 
 .first .content h1 {
@@ -157,7 +148,7 @@ section {
 }
 
 .third .row_2 {
-    display: flex;
+  display: flex;
 }
 .third strong {
   color: rgb(61, 60, 60);
@@ -170,23 +161,19 @@ section {
   margin-top: 5%;
 }
 
-
-
 .dot {
-    height: 400px;
-    width: 30%;
-    margin-left: 10%;
+  height: 400px;
+  width: 30%;
+  margin-left: 10%;
 
-    background-color: rgb(226, 212, 83);
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 100%;
+  background-color: rgb(226, 212, 83);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 100%;
+}
 
-  }
-
- 
 .fourth h1 {
   font-size: 2.5rem;
   margin-left: 1%;
@@ -234,46 +221,40 @@ section {
 }
 
 .fourth a:hover {
-    padding: 7% 10%;
-    background-color: rgb(226, 212, 83);
-
-    
+  padding: 7% 10%;
+  background-color: rgb(226, 212, 83);
 }
 
-.fourth img:hover{
-    padding :5%
+.fourth img:hover {
+  padding: 5%;
 }
 
-
-
-.fifth  {
-    padding:0;
-    width:100%; 
-    height: 80vh;
-    background-image: url("../images/Background5.png");
-    background-position: center;
-    background-size: cover;
-    display: flex;
+.fifth {
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+  background-image: url("images/Background5.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
 }
 
-.sign h1{
-    padding: 0 50px;
-    margin-top: 20%;
-    color: transparent;
-    font-size: 4rem;
-    -webkit-text-stroke: 2px white;
-    letter-spacing: 0.2rem;
+.sign h1 {
+  padding: 0 50px;
+  margin-top: 20%;
+  color: transparent;
+  font-size: 4rem;
+  -webkit-text-stroke: 2px white;
+  letter-spacing: 0.2rem;
 }
-.sign p{
-    padding: 0 50px;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-   
-
+.sign p {
+  padding: 0 50px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.sign .email{
+.sign .email {
   margin-top: 4%;
   margin-left: 50px;
   width: 450px;
@@ -286,110 +267,111 @@ section {
   font-size: 20px;
 }
 
+@media all and (max-width: 1000px) {
+  .navbar {
+    position: absolute;
+    background: rgb(226, 212, 83);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -900px;
+    text-align: left;
+    z-index: 2;
+    display: grid;
+    transition: 1s;
+    border-radius: 20px;
+  }
+  header .fa {
+    display: block;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 10%;
+  }
 
+  .first .content {
+    top: 7rem;
+  }
+  .first .content h1 {
+    font-size: 4rem;
+  }
 
+  .first .content p {
+    font-size: 0.6rem;
+  }
 
- @media all and (max-width:1080px){
- 
-    .first .content{
-        top: 7rem;
-    }
-    .first .content h1{
-        font-size: 4rem;
-    }
-     
-    .first .content p{
-        font-size: 0.6rem;
-    }
+  .fourth table td {
+    display: grid;
+    width: 100%;
+  }
+  .fourth strong {
+    font-size: 100px;
+  }
   
-    .fourth table td{
-         display: grid;
-         width: 100%;
-           
-     }
-     .fourth strong{
-       font-size: 2rem;
-     }
-    
-      .fourth .img-text{
-         margin-top: 30%;
-         margin-left: 10%;
-      }
-      .third .row_2{
-         display:grid;
+  .fourth .img-text {
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+  .third .row_2 {
+    display: grid;
+  }
+  .third .dot {
+    margin-top: 5%;
+    width: 70%;
+    height: 500px;
+    font-size: 3rem;
+  }
 
-      }
-      .third .dot{
-          margin-top: 5%;
-          width: 70%;
-          height: 500px;
-          font-size: 3rem;
-          
-      }
-
-     
-      
-      .sign .email{
-        margin-left: 10%;
-        padding: 10px 10px;
-        width: 305px;
-        height: 30px;
-
-
-      }
-      .fifth{
-        background-position:right;
-
-      }
+  .sign .email {
+    margin-left: 10%;
+    padding: 10px 10px;
+    width: 305px;
+    height: 30px;
+  }
+  .fifth {
+    background-position: right;
+  }
 }
 
-.foo{
-    
+.foo {
   width: 100%;
   color: white;
-  top:0;left: 0;right: 0;
-  background:black;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: black;
   padding: 2rem 9%;
   align-items: center;
-  box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
-  
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.1);
 }
-.foo-row{
-    display: flex; 
-    
+.foo-row {
+  display: flex;
 }
 .vert {
-    margin-left: 7%;
+  margin-left: 7%;
 }
 
-.foo a{
-    display: block;
-    color: white;
-    line-height: 2.5;
-    font-size: 20px;
-
+.foo a {
+  display: block;
+  color: white;
+  line-height: 2.5;
+  font-size: 20px;
 }
-.foo a:hover{
-    color: yellow;
+.foo a:hover {
+  color: yellow;
 }
-.foo p{
-    font-size: 28px;
+.foo p {
+  font-size: 28px;
 }
 
-
-#cont{
+#cont {
   color: #666;
 }
 
-#cont:before{
-  content: ' \00A9';
-  
-
+#cont:before {
+  content: " \00A9";
 }
-.icon a{
-   margin: 10px;
-   display: inline;
-  
+.icon a {
+  margin: 10px;
+  display: inline;
 }
-
-
