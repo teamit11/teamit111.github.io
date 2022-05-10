@@ -289,17 +289,7 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
- @media only screen and (max-width:1080px){
+ @media all screen and (max-width:1080px){
  
     .first .content{
         top: 7rem;
