@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Hind Madurai, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+header {
+  padding: 10px 20px;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2);
+}
+
+.imagelogo {
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  right: -10px;
+}
+
+header .logo {
+  position: relative;
+  color: darkgreen;
+  right: 26rem;
+  font-size: 30px;
+}
+
+header .fa {
+  display: none;
+}
+
+.navbar span {
+  color: black;
+}
+
+.navbar a {
+  font-size: 20px;
+  padding-left: 15px;
+  padding: 0 1.5rem;
+}
+
+#iconperson {
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a:hover {
+  background-color: cyan;
+}
+
+.icons a:hover {
+  color: yellowgreen;
+}
+header i {
+  color: black;
+}
+
+.backvideo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.s {
+  background-color: rgb(248, 248, 248);
+}
+section {
+  padding: 2rem;
+}
+.first {
+  padding: 0%;
+}
+.dark {
+  background-color: black;
+}
+
+.first .content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 16rem;
+  text-align: center;
+}
+
+.first .content h1 {
+  font-size: 7rem;
+  color: rgb(255, 255, 255);
+}
+
+.first .content p {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  position: absolute;
+  top: 20rem;
+  z-index: 1;
+  text-align: center;
+}
+.second .p_1 {
+  text-align: center;
+  color: rgb(61, 60, 60);
+  font-size: 1.6rem;
+}
+
+.second .row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.23rem;
+  color: rgb(85, 88, 88);
+}
+
+.second .popular {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.second .popular a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.second .popular a:hover {
+  color: rgb(62, 65, 65);
+}
+
+.second img {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.third .row_2 {
+  display: flex;
+}
+.third strong {
+  color: rgb(61, 60, 60);
+  font-size: 1.2rem;
+}
+
+.third p {
+  color: rgb(85, 88, 88);
+  font-size: 1.1rem;
+  margin-top: 5%;
+}
+
+.dot {
+  height: 400px;
+  width: 30%;
+  margin-left: 10%;
+
+  background-color: rgb(226, 212, 83);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 100%;
+}
+
+.fourth h1 {
+  font-size: 2.5rem;
+  margin-left: 1%;
+}
+
+.fourth .img-rows {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.fourth img {
+  width: 100%;
+  padding: 3%;
+}
+
+.img-text {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 3%;
+  color: white;
+}
+
+.img-text strong {
+  font-size: 2.4em;
+}
+
+.img-text p {
+  font-size: 1.1em;
+  width: 60%;
+}
+
+.fourth a {
+  display: inline-block;
+  position: absolute;
+  color: rgb(63, 61, 61);
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: 5% 8%;
+  margin-top: 10%;
+  font-size: 1.2rem;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.fourth a:hover {
+  padding: 7% 10%;
+  background-color: rgb(226, 212, 83);
+}
+
+.fourth img:hover {
+  padding: 5%;
+}
+
+.fifth {
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+  background-image: url("images/Background5.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.sign h1 {
+  padding: 0 50px;
+  margin-top: 20%;
+  color: transparent;
+  font-size: 4rem;
+  -webkit-text-stroke: 2px white;
+  letter-spacing: 0.2rem;
+}
+.sign p {
+  padding: 0 50px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sign .email {
+  margin-top: 4%;
+  margin-left: 50px;
+  width: 450px;
+  height: 55px;
+  padding: 10px 10px;
+  background: #e7e7e78a;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media all and (max-width: 1000px) {
+  header .logo{
+    right: 3.2rem;
+  }
+  .navbar {
+    position: absolute;
+    background: rgb(226, 212, 83);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -900px;
+    text-align: left;
+    display: grid;
+    transition: 1s;
+  }
+  
+  header .fa {
+    display: block;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10%;
+  }
+
+  .first .content {
+    top: 7rem;
+  }
+  .first .content h1 {
+    font-size: 4rem;
+  }
+
+  .first .content p {
+    font-size: 0.6rem;
+  }
+
+  .fourth table td {
+    display: grid;
+    width: 100%;
+  }
+  .fourth strong {
+    font-size: 2rem;
+  }
+
+  .fourth .img-text {
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+  .third .row_2 {
+    display: grid;
+  }
+  .third .dot {
+    margin-top: 5%;
+    width: 70%;
+    height: 500px;
+    font-size: 3rem;
+  }
+
+  .sign .email {
+    margin-left: 10%;
+    padding: 10px 10px;
+    width: 305px;
+    height: 30px;
+  }
+  .fifth {
+    background-position: right;
+    height: 70vh;
+  }
+}
+
+.foo {
+  width: 100%;
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  padding: 2rem 9%;
+  align-items: center;
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.1);
+}
+.foo-row {
+  display: flex;
+}
+.vert {
+  margin-left: 7%;
+}
+
+.foo a {
+  display: block;
+  color: white;
+  line-height: 2.5;
+  font-size: 20px;
+}
+.foo a:hover {
+  color: yellow;
+}
+.foo p {
+  font-size: 28px;
+}
+
+#cont {
+  color: #666;
+}
+
+#cont:before {
+  content: " \00A9";
+}
+.icon a {
+  margin: 10px;
+  display: inline;
+}

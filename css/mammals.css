@@ -1,0 +1,470 @@
+*{
+
+    margin: 0;
+
+    padding:0 ;
+
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-decoration: none;
+
+    text-transform: capitalize;
+
+    transition: .2s linear;
+
+
+
+ 
+
+
+
+}
+
+header{
+
+    padding: 10px 20px;
+
+    height: 4rem;
+
+    position: fixed;
+
+    top:0;left: 0;right: 0;
+
+    background:#fff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    z-index: 1000;
+
+    box-shadow:0 .5rem 1rem rgb(0,0,0,1);
+
+    
+
+  }
+
+  
+
+  .imagelogo{
+
+  margin: 0;
+
+  padding: 0;
+
+  width: 70px;
+
+  height: 50px;
+
+  border-radius: 50%;
+
+  position: relative;
+
+  right: -10px;
+
+  
+
+  }
+
+  
+
+  header .logo{
+
+  position: relative;
+
+  right: 27rem;
+
+    color:darkgreen;
+
+    padding-left: 5px;
+
+    font-size: 25px;
+
+  
+
+  }
+
+  
+
+  
+
+  
+
+  .navbar span {
+
+  
+
+    color:black;
+
+  
+
+  }
+
+  
+
+  .navbar a{
+
+  
+
+    font-size:20px;
+
+    padding: 10px;
+
+    padding-left: 15px;
+
+    
+
+  }
+
+  
+
+  #iconperson{
+
+    font-size: 20px;
+
+  }
+
+  
+
+  .navbar{
+
+  display: flex;
+
+  }
+
+  
+
+  
+
+  .navbar a:hover{
+
+    background-color:cyan;
+
+  }
+
+  
+
+  .icons a:hover{
+
+  
+
+   color:yellowgreen;
+
+  
+
+  }
+
+  header i{
+
+  color:black;
+
+  }
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+  .foo{
+
+   
+
+    width: 100%;
+
+   
+
+    position: static;
+
+  color: white;
+
+  top:0;left: 0;right: 0;
+
+  background:black;
+
+  padding: 2rem 9%;
+
+  margin-top: 2rem;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  z-index: 1000;
+
+  box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+
+  
+
+}
+
+
+
+
+
+.foo a{
+
+    display: block;
+
+    color: white;
+
+    line-height: 2.5;
+
+    font-size: 20px;
+
+
+
+}
+
+.foo a:hover{
+
+    color: yellow;
+
+}
+
+.foo th{
+
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+#cont{
+
+  color: #666;
+
+}
+
+
+
+
+
+#cont:before{
+
+  content: ' \00A9';
+
+  
+
+
+
+}
+
+.icon a{
+
+   margin: 10px;
+
+   display: inline;
+
+  
+
+}
+
+
+
+table {
+
+font-family: arial, sans-serif;
+
+
+
+width: 50%;
+
+}
+
+th ,td{
+
+text-align: left;
+
+padding: 5px;
+
+}
+
+
+
+main{
+
+    background-color: rgb(210, 223, 223);
+
+    border-radius: 17px;
+
+    margin: 20px;
+
+    padding: 5px;
+
+    width: 95%;
+
+   
+
+    
+
+    
+
+}
+
+#ma{
+
+    background-color: rgb(110, 122, 122);
+
+    font-size: large;
+
+    padding: 27px 55px ;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    border-radius: 50px;
+
+    
+
+    margin-left: 84%;
+
+    margin-top: 0;
+
+    margin-bottom: 10px;
+
+    box-shadow: blueviolet;
+
+}
+
+ul{
+
+    list-style-type: disc;
+
+    list-style-position: inside;
+
+    margin: 10px;
+
+    
+
+}
+
+p{
+
+    margin: 10px;
+
+}
+
+h2{
+
+    margin: 10px;
+color: rgb(54, 122, 96);
+}
+
+#ma a:link{
+
+    color: black;
+
+}
+
+#ma a:visited{
+
+    color: rgb(103, 184, 238);
+
+}
+
+#ma a:hover{
+
+    color: rgba(127, 255, 212, 0.356);
+
+}
+
+
+
+.dark main{
+
+    background-color: black;
+
+}
+
+.dark .address{
+
+    background-color: white;
+
+    color: black;
+
+}
+
+.dark .topc pre{
+
+    color: white;
+
+}
+
+.dark{
+
+   
+
+    color: white;
+
+}
+
+.dark footer{
+
+    background-color: gray;
+
+}
+
+.dark .foo a{
+
+    color: white;
+
+}
+
+.dark .foo th{
+
+    color: black;
+
+}
+
+.dark .slider{
+
+    background-color: white;
+
+}
+
+.dark #cont{
+
+    color: white;
+
+}
+button{
+    background-color: rgb(153, 146, 146);
+    margin: 25px;
+    padding: 27px 55px ;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    border-radius: 50px;
+font-size: medium;
+box-shadow:rgb(133, 168, 136);
+    
+color: rgb(34, 87, 87);
+margin-bottom: 4px;
+}
+.animal td,th{
+   margin: 20px;
+}
