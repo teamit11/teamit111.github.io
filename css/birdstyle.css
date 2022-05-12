@@ -92,6 +92,12 @@ section {
 .dark .navbar span{
   color:white;
 }
+.dark .fa-moon{
+  color: white;
+}
+.dark .fa{
+  color: white;
+}
 
 .first .content {
   top: 50%;
@@ -287,6 +293,7 @@ section {
     text-align: left;
     display: grid;
     transition: 1s;
+    z-index:2;
   }
   
   header .fa {
