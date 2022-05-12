@@ -10,7 +10,6 @@
 header {
   padding: 10px 20px;
   height: 4rem;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -81,6 +80,9 @@ section {
 }
 .dark{
   background-color: black;
+}
+.dark .navbar span{
+  color:white;
 }
 .first h1 {
   color: rgb(51, 51, 51);
