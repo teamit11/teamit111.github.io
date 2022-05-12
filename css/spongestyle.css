@@ -77,6 +77,12 @@ header i {
   color:white;
 }
 
+.dark .fa-moon{
+  color: white;
+}
+.dark .fa{
+  color: white;
+}
 .first{
     background-image:linear-gradient(rgba(124, 84, 146, 0.7),rgba(4,9,30,0.7)), url("../images/sponges.jpg");
     background-position: center;
@@ -230,6 +236,7 @@ h2{
     text-align: left;
     display: grid;
     transition: 1s;
+    z-index: 2;
   }
   header .fa {
     display: block;
