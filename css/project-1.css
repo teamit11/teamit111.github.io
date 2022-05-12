@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border:0;
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+
+}
+header{
+    padding: 10px 20px;
+    height: 4rem;
+    position: fixed;
+    top:0;left: 0;right: 0;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgb(0,0,0,1);
+    
+}
+.main_logo{
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    right: -10px;
+
+}
+
+header .logo{
+    position: relative;
+    right: 27rem;
+    color:darkgreen;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.navbar span {
+    color:black;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size:20px;
+    padding-left: 15px;
+    padding:0 1.5rem;
+}
+
+#iconperson{
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a:hover{
+    background-color:cyan;
+}
+
+.icons a:hover{
+    color:yellowgreen;
+
+}
+header i{
+    color:black;
+}
+.main_img{
+    width:650px;
+    height: 500px;
+    margin-top: 85px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 70%);
+    margin-bottom: 27px;
+    transition: .7s;
+}
+.main_img:hover {
+    width: 700px;
+    height: 600px;
+}
+
+.frist_section {
+    background: url(main_background2.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size:20px;
+    line-height:1.7;
+}
+.main_div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+
+.info {
+    margin-top: 85px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.main_title {
+    margin-left: -15px;
+    margin-bottom: -15px;
+    font-size:60px;
+    font-style:oblique;
+    
+}
+
+.intro {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#div_2 {
+    margin-top: 50px;
+
+}
+.shark_info {
+    margin: 50px;
+    margin-top: 50px;
+}
+
+.shark_img1 {
+    width:450px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 70%);
+    transition: .7s;
+}
+
+.shark_img2 {
+    width:450px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 70%);
+    transition: .7s;
+}
+
+#shark_img:hover {
+    width: 500px;
+    height: 350px;
+}
+
+.third_section {
+    margin-bottom: 0%;
+}
+.intro_v {
+    margin-top: 115px;
+    margin-left: 75px;
+}
+
+.v_img {
+    width:350px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 70%);
+    transition: .7s;
+    margin-bottom: 0%;
+}
+
+.v_img:hover {
+    width: 400px;
+    height: 250px;
+} 
+#v_img_2 {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.foo{
+    width: 100%;
+    color: white;
+    background:rgb(52, 149, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 0%;
+
+}
+
+.frist_ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.frist_ul ul span {
+    margin-left: 360px;
+    font-size: 40px;
+}
+.frist_ul ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.second_ul {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.second_ul ul span {
+    list-style: none;
+    margin-left: 120px;
+    font-size: 40px;
+}
+.second_ul ul div {
+    margin-left: -35px;
+}
+
+.second_ul ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+
+#cont{
+    color: #666;
+}
+
+#cont:before{
+    content: ' \00A9';
+}
+
+
+.icon a{
+    margin: 10px;
+    font-size: 30px;
+    display: inline;
+    color: rgb(131, 231, 231);
+    transition: .7s;
+}
+
+.icon a:hover {
+    font-size: 35px;
+    color: rgb(28, 217, 189);
+}
